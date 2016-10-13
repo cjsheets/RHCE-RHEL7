@@ -1,0 +1,39 @@
+site_name: 'RHCSA/RHCE Study Guide'
+site_url: http://rhce.chadsheets.com
+pages:
+- Introduction: 
+    - 'About': 'index.md'
+- Basics:
+    - 'Hardware': 'basics/index.md'
+#    - 'Essential Tools': 'basics/tools.md'
+- Installation:
+    - 'General': 'install/index.md'
+- KVM:
+    - 'Introduction': 'kvm/index.md'
+#    - 'Usage': 'kvm/index.md'
+# - Network Services:
+#     - 'General': 'net-service/index.md'
+#     - 'Firewalls': 'net-service/firewall.md'
+#     - 'HTTP': 'net-service/http.md'
+#     - 'DNS': 'net-service/dns.md'
+#     - 'NFS': 'net-service/nfs.md'
+#     - 'NTP': 'net-service/http.md'
+#     - 'Samba': 'net-service/smb.md'
+#     - 'SMTP': 'net-service/http.md'
+#     - 'SSH': 'net-service/http.md'
+# - MariaDB:
+#     - 'Introduction': 'mariadb/index.md'
+- SE-Linux:
+    - 'Introduction': 'se-linux/index.md'
+# - Storage:
+#     - 'Introduction': 'storage/index.md'
+#     - 'Logical Volumes': 'storage/index.md'
+# - System Config:
+#     - 'General': 'system-config/index.md'
+#     - 'Users/Groups': 'system-config/users-groups.md'
+docs_dir: 'docs'
+site_dir: 'www'
+theme: readthedocs
+
+copyright: Copyright &copy; 2016 <a href="http://chadsheets.com">Chad Sheets</a>.
+google_analytics: ['UA-82046664-1', 'chadsheets.com']

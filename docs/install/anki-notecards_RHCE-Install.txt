@@ -1,0 +1,11 @@
+cmd - write install iso to usb	dd if=name-of-image.iso of=/dev/sdb bs=512k
+Which consoles contain gui installer / command line, how do you switch	Ctrl+Alt+F2 or F6
+Which consoles contain messages possibly relevant durring install?	Ctrl+Alt+F1 / 3 / 4 / 5
+What is the default RHEL filesystem	XFS
+How much swap is recommended	Double RAM up to 2GB, Equal RAM up to 8GB, Half RAM over 8GB
+Where are name and package groups listed (during installation)	XML file on install disk at *-comps-Server-x86_64.xml
+cmd - Check install group packages (ex. base group)	yum group info base
+What is the name of the RedHat Install program?	Anaconda
+
+
+
