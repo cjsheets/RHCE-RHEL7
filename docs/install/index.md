@@ -9,3 +9,8 @@ RHEL can be installed from the following:
 - Full DVD / DVD image on USB
 - Minimal CD / CD image on USB (network based)
 - PXE Network boot from Kickstart server (network based)
+
+## Hardware Requirements
+
+* 1Gb recommended
+* 512Mb min for GUI applications

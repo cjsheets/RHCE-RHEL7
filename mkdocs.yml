@@ -5,22 +5,23 @@ pages:
     - 'About': 'index.md'
 - Basics:
     - 'Hardware': 'basics/index.md'
-#    - 'Essential Tools': 'basics/tools.md'
+    - 'Commands': 'basics/commands.md'
 - Installation:
     - 'General': 'install/index.md'
 - KVM:
     - 'Introduction': 'kvm/index.md'
-#    - 'Usage': 'kvm/index.md'
-# - Network Services:
-#     - 'General': 'net-service/index.md'
+    - 'Networking': 'kvm/net.md'
+- Network Services:
+    - 'General': 'net-service/index.md'
 #     - 'Firewalls': 'net-service/firewall.md'
-#     - 'HTTP': 'net-service/http.md'
+    - 'HTTP': 'net-service/http.md'
 #     - 'DNS': 'net-service/dns.md'
+    - 'FTP': 'net-service/ftp.md'
 #     - 'NFS': 'net-service/nfs.md'
-#     - 'NTP': 'net-service/http.md'
+#     - 'NTP': 'net-service/ntp.md'
 #     - 'Samba': 'net-service/smb.md'
-#     - 'SMTP': 'net-service/http.md'
-#     - 'SSH': 'net-service/http.md'
+#     - 'SMTP': 'net-service/smtp.md'
+#     - 'SSH': 'net-service/ssh.md'
 # - MariaDB:
 #     - 'Introduction': 'mariadb/index.md'
 - SE-Linux:
@@ -34,6 +35,7 @@ pages:
 docs_dir: 'docs'
 site_dir: 'www'
 theme: readthedocs
+extra_css: ['style.css']
 
 copyright: Copyright &copy; 2016 <a href="http://chadsheets.com">Chad Sheets</a>.
 google_analytics: ['UA-82046664-1', 'chadsheets.com']
