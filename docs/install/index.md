@@ -14,3 +14,7 @@ RHEL can be installed from the following:
 
 * 1Gb recommended
 * 512Mb min for GUI applications
+
+## Kickstart
+
+RHEL text file, guides installation

@@ -1,12 +1,22 @@
-<h1>RHEL 7 Basics</h1>
+<h1>KVM Basics</h1>
 
 This section contains basic requirements, knowledge and tools.
 
 
-## Hardware
+## Packages
 
-RHEL 7 is compatable with 64-bit systems only. RedHat aids hardware selection
-with their [compatability site](https://hardware.redhat.com/).
+* `qemu-kvm` - KVM
+* `libvirt` - libvirtd service, manages hypervisors
+* `libvirt-client` - virsh command
+* `virt-install` - Creating VMs
+* `virt-manager` - GUI administration tool
+* `virt-top` - virtualization statistics
+* `virt-viewer` - Connect to VMs
 
-- `uname -p` - Identify current system architechture
+## Kernel Module
 
+`lsmod | grep kvm`
+
+if the module is missing:
+
+`modprobe kvm_intel` or `modprobe kvm_amd`
